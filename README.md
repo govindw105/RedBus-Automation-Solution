@@ -22,25 +22,37 @@ The entire automation logic is implemented inside a single Java class using Sele
 🛠️ Tech Stack
 
 Language: Java
+
 Automation Tool: Selenium WebDriver
+
 Browser: ChromeDriver
+
 Synchronization: WebDriverWait (Explicit Waits)
+
 JavaScript Handling: JavascriptExecutor
+
 Build Tool: Maven
+
 Version Control: Git & GitHub
 
 🧪 Functional Flow Automated
 
 Launch RedBus website
+
 Select From location (Mumbai)
+
 Select To location (Pune)
+
 Click Search
+
 Apply Primo Bus filter
 
 Validate:
 
 Buses count text (e.g., "XX buses found")
+
 Bus names displayed
+
 Total number of buses loaded
 
 ⚙️ Key Automation Concepts Implemented
@@ -74,15 +86,23 @@ pom.xml       → Maven dependencies
 ▶️ How to Run
 
 Clone the repository
+
 Open in IntelliJ / Eclipse
+
 Install Maven dependencies
+
 Run the main class
 
 🎯 What I Learned From This Project
 
-Handling auto-suggestion dropdowns.
-Implementing explicit waits effectively.
-Managing lazy loading with JavaScript scroll.
-Working with dynamic web elements.
+Handling auto-suggestion dropdowns
+
+Implementing explicit waits effectively
+
+Managing lazy loading with JavaScript scroll
+
+Working with dynamic web elements
+
 Extracting and validating dynamic data from web pages
+
 Writing end-to-end Selenium automation scripts
