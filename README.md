@@ -4,6 +4,7 @@
 This project automates the RedBus web application’s core search functionality using Selenium WebDriver with Java.
 
 The automation script performs an end-to-end validation of:
+
 Selecting source (From) location
 Selecting destination (To) location
 Searching for available buses
