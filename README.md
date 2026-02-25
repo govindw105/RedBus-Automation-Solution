@@ -6,11 +6,17 @@ This project automates the RedBus web application’s core search functionality 
 The automation script performs an end-to-end validation of:
 
 Selecting source (From) location
+
 Selecting destination (To) location
+
 Searching for available buses
+
 Applying "Primo Bus" filter
+
 Handling lazy loading (infinite scroll)
+
 Fetching and validating the total number of buses displayed
+
 The entire automation logic is implemented inside a single Java class using Selenium WebDriver and explicit waits.
 
 🛠️ Tech Stack
